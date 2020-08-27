@@ -8,7 +8,7 @@ password = input("Masukkan Password dan tekan enter: ")
 message = """\
 Subject: Halo 
 
-Pesan ini di kirim melalui python script."""
+Email ini di kirim melalui python script."""
 
 context = ssl.create_default_context()
 with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
