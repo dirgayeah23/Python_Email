@@ -1,9 +1,9 @@
 import smtplib, ssl
 
-port = 465  # For SSL
+port = 465  # Untuk SSL
 smtp_server = "smtp.gmail.com"
-sender_email = input ("masukkan email pengirim :")  # Masukkan email anda
-receiver_email = input ("masukkan email penerima :")  # masukkan email penerima
+sender_email = input ("masukkan email pengirim :")  # Masukkan email Anda
+receiver_email = input ("masukkan email penerima :")  # masukkan email Penerima
 password = input("Masukkan Password dan tekan enter: ")
 message = """\
 Subject: Halo 
